@@ -1,4 +1,4 @@
-import { Rocket, Sparkles, Star, Award, Flame, Zap, Sun } from "lucide-react";
+import { Rocket, Sparkles, Star, Award, Flame, Zap, Sun, Brain } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
 
 const features = [
@@ -24,7 +24,7 @@ const features = [
     bgGlow: "group-hover:shadow-[0_0_30px_-5px_#8B5CF6]"
   },
   {
-    icon: Zap,
+    icon: Brain,
     title: "Turbine seu cérebro",
     description: "Aprender idiomas melhora sua memória, foco e até sua criatividade.",
     color: "text-[#0EA5E9]",
