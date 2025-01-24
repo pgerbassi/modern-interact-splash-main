@@ -8,10 +8,10 @@ const Creator = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-up">
             <h2 className="text-4xl font-bold tracking-tighter text-neon">
-              Meet Vitor
+              Sobre Vitor
             </h2>
             <p className="text-lg text-muted-foreground">
-              As a passionate language enthusiast and tech innovator, Vitor has dedicated her career to making language learning more accessible and engaging for everyone.
+              Vitor é um hiperpoliglota apaixonado por aprendizagem de idiomas que revolucionou a maneira de como estudar uma nova lingua.
             </p>
             <div className="flex items-center space-x-4">
               <Avatar className="h-24 w-24 border-2 border-neon animate-float">

@@ -13,21 +13,21 @@ import Autoplay from "embla-carousel-autoplay";
 const testimonials = [
   {
     id: 1,
-    title: "Amazing Experience",
-    author: "Sarah Johnson",
-    thumbnail: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=400",
+    title: "Fluência em 2 meses em RUSSO",
+    author: "João",
+    thumbnail: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 2,
-    title: "Life Changing",
-    author: "Michael Chen",
-    thumbnail: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400",
+    title: "Desafio de ser tornar hiperpoliglota em 1 ano",
+    author: "Felipe",
+    thumbnail: "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 3,
-    title: "Best Learning Platform",
-    author: "Emma Davis",
-    thumbnail: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=400",
+    title: "Conquistou o certificado de proficiência em alemão em 1 mês",
+    author: "Daniele",
+    thumbnail: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
 
@@ -45,7 +45,7 @@ const Testimonials = () => {
     <section className="py-24 px-6 bg-background">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold tracking-tighter text-neon mb-12 animate-fade-up">
-          What Our Users Say
+          Depoimentos em Vídeo
         </h2>
         
         <Carousel

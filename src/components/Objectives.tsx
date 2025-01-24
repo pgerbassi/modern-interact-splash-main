@@ -4,27 +4,27 @@ import { Card, CardContent } from "./ui/card";
 const objectives = [
   {
     icon: Brain,
-    title: "Smart Learning",
+    title: "Método Dual Flow",
     description:
-      "Adaptive learning algorithms that understand and evolve with your needs",
-  },
-  {
-    icon: Target,
-    title: "Precision Focus",
-    description:
-      "Targeted assistance that helps you achieve your specific goals efficiently",
+      "Aprenda vários idiomas ao mesmo tempo com nosso exclusivo Dual Flow.",
   },
   {
     icon: Zap,
-    title: "Quick Response",
+    title: "Resultados rápidos",
     description:
-      "Lightning-fast processing and real-time support when you need it most",
+      "Reduza o tempo e custo do aprendizado enquanto domina múltiplas línguas.",
+  },
+  {
+    icon: Target,
+    title: "Prática ao vivo",
+    description:
+      "Encontros diários para conversação real e evolução acelerada.",
   },
   {
     icon: Check,
-    title: "Reliable Results",
+    title: "Conteúdo completo",
     description:
-      "Consistent, accurate, and dependable outcomes you can count on",
+      "Tenha acesso imediato a tudo o que precisa para se tornar um poliglota.",
   },
 ];
 
@@ -33,11 +33,10 @@ const Objectives = () => {
     <section className="py-24 px-6 bg-secondary">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-4 animate-fade-up">
-          Our <span className="text-neon">Objectives</span>
+          Entenda o nosso <span className="text-neon">Método</span>
         </h2>
         <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto animate-fade-up">
-          We're committed to revolutionizing the way you interact with AI,
-          providing tools that enhance your productivity and creativity.
+          Escolha o método Dual Flow e torne-se poliglota em tempo recorde, com prática diária ao vivo e aprendizado simultâneo de múltiplos idiomas.
         </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {objectives.map((objective, index) => (

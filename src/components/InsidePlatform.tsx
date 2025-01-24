@@ -16,11 +16,10 @@ const InsidePlatform = () => {
       <div className="relative z-10 container mx-auto px-6">
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <h2 className="text-4xl md:text-5xl font-bold text-white">
-            Step Inside Our Platform
+            Veja por dentro da Plataforma
           </h2>
           <p className="text-lg text-gray-300">
-            Experience the future of AI assistance with our cutting-edge platform. 
-            Discover powerful features designed to enhance your productivity and creativity.
+            Em apenas <span className="text-neon font-bold">3 meses</span> você atinge o nível conversacional, <span className="text-neon font-bold">6 meses</span> atinja o nivel avançado para que em <span className="text-neon font-bold">1 ANO</span> tenha a fluência absoluta.
           </p>
           
           {/* Shining button with animation */}
@@ -29,7 +28,7 @@ const InsidePlatform = () => {
             <Button 
               className="relative px-8 py-6 bg-black border border-neon text-neon hover:bg-black/50 text-lg"
             >
-              Start Your Journey
+              Começe sua Jornada!
               <ArrowRight className="ml-2" />
             </Button>
           </div>
