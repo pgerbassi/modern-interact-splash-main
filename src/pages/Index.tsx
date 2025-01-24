@@ -5,6 +5,7 @@ import Features from "@/components/Features";
 import Creator from "@/components/Creator";
 import Testimonials from "@/components/Testimonials";
 import InsidePlatform from "@/components/InsidePlatform";
+import Learn from "@/components/Learn";
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
       <Objectives />
       <Creator />
       <Testimonials />
+      <Learn/>
     </main>
   );
 };
