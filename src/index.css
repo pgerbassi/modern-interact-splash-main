@@ -45,3 +45,28 @@
     @apply bg-background text-foreground antialiased;
   }
 }
+
+@keyframes float-word {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.3;
+  }
+  50% {
+    transform: translate(30px, -30px) rotate(5deg);
+    opacity: 0.6;
+  }
+  75% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+    opacity: 0;
+  }
+}
+
+.animate-float-word {
+  animation: float-word infinite linear both;
+}

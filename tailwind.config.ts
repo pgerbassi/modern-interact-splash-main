@@ -75,6 +75,26 @@ export default {
           "0%, 100%": { backgroundPosition: "0% 50%" },
           "50%": { backgroundPosition: "100% 50%" },
         },
+        "float-word": {
+          "0%": { 
+            transform: "translate(0, 0) rotate(0deg)",
+            opacity: "0"
+          },
+          "25%": {
+            opacity: "0.3"
+          },
+          "50%": {
+            transform: "translate(30px, -30px) rotate(5deg)",
+            opacity: "0.6"
+          },
+          "75%": {
+            opacity: "0.3"
+          },
+          "100%": {
+            transform: "translate(0, 0) rotate(0deg)",
+            opacity: "0"
+          }
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -82,6 +102,7 @@ export default {
         float: "float 3s ease-in-out infinite",
         "fade-up": "fade-up 0.5s ease-out forwards",
         "gradient": "gradient 15s ease infinite",
+        "float-word": "float-word var(--duration, 15s) infinite linear"
       },
     },
   },
