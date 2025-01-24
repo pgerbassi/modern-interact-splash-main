@@ -1,5 +1,6 @@
-import { Rocket, Sparkles, Star, Award, Flame, Zap, Sun, Brain } from "lucide-react";
+import { Rocket, Sparkles, Star, Award, Flame, Zap, Sun, Brain, ArrowRight } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
+import { Button } from "./ui/button";
 
 const features = [
   {
@@ -86,6 +87,12 @@ const Features = () => {
             </Card>
           ))}
         </div>
+        <div className="flex pt-10 justify-center items-center">
+            <Button className="bg-neon text-black hover:bg-neon/90 text-lg px-8">
+              Seja Membro
+              <ArrowRight className="ml-2" size={20} />
+            </Button>
+          </div>
       </div>
     </section>
   );

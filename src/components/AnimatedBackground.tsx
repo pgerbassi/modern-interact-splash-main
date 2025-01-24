@@ -39,7 +39,7 @@ const AnimatedBackground = () => {
       {words.map((word, index) => (
         <div
           key={index}
-          className={`absolute text-neon/90 whitespace-nowrap animate-float-word opacity-0`}
+          className={`absolute text-neon/70 whitespace-nowrap animate-float-word opacity-0`}
           style={{
             left: `${Math.random() * 100}%`,
             top: `${Math.random() * 100}%`,

@@ -13,21 +13,21 @@ import Autoplay from "embla-carousel-autoplay";
 const testimonials = [
   {
     id: 1,
-    title: "Fluência em 2 meses em RUSSO",
-    author: "João",
-    thumbnail: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Desafio de ser tornar hiperpoliglota em 1 ano",
+    author: "Felipe",
+    thumbnail: "0E5MqKoD0dA",
   },
   {
     id: 2,
-    title: "Desafio de ser tornar hiperpoliglota em 1 ano",
-    author: "Felipe",
-    thumbnail: "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Conquistou o certificado de proficiência em alemão em 1 mês",
+    author: "Daniele",
+    thumbnail: "1tjNbqwuAIc",
   },
   {
     id: 3,
-    title: "Conquistou o certificado de proficiência em alemão em 1 mês",
-    author: "Daniele",
-    thumbnail: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Fluência em 2 meses em RUSSO",
+    author: "João",
+    thumbnail: "j7Qz9frfXPw",
   },
 ];
 
@@ -62,14 +62,13 @@ const Testimonials = () => {
                 <Card className="bg-secondary/50 border-none overflow-hidden group">
                   <CardContent className="p-0">
                     <div className="relative aspect-video">
-                      <img
-                        src={testimonial.thumbnail}
-                        alt={testimonial.title}
-                        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                      />
-                      <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                        <Play className="w-12 h-12 text-neon" />
-                      </div>
+                      <iframe
+                    src={`https://www.youtube.com/embed/${testimonial.thumbnail}`}
+                    title={testimonial.title}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  ></iframe>
                     </div>
                     <div className="p-6">
                       <h3 className="text-lg font-semibold mb-2">{testimonial.title}</h3>

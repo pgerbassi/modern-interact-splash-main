@@ -3,17 +3,17 @@ import { Card, CardContent } from "./ui/card";
 
 const learningPoints = {
   do: [
-    "Como pensar diretamente no idioma sem traduzir",
-    "Técnicas de imersão mesmo morando no Brasil",
-    "Como desenvolver pronúncia nativa desde o início",
-    "Método de aquisição natural de gramática"
+    "Pensar diretamente no idioma, sem traduzir.",
+    "Técnicas para imersão total, mesmo no Brasil.",
+    "Pronúncia fluida e natural desde o início.",
+    "Gramática intuitiva e fácil de aprender."
 
   ],
   dont: [
-    "Estratégias para manter a motivação e consistência",
-    "Como estudar múltiplos idiomas simultaneamente",
-    "Técnicas de memorização natural de vocabulário",
-    "Como criar rotinas de estudo eficientes"
+    "Como manter motivação e consistência.",
+    "Estudar múltiplos idiomas de forma eficiente.",
+    "Memorização rápida e natural de vocabulário.",
+    "Criar rotinas de estudo adaptáveis ao seu dia."
   ]
 };
 
