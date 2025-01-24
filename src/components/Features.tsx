@@ -17,7 +17,7 @@ const features = [
     bgGlow: "group-hover:shadow-[0_0_30px_-5px_#D946EF]"
   },
   {
-    icon: Star,
+    icon: Zap,
     title: "Supere seus limites",
     description: "Ganhe confiança e destaque-se em qualquer conversa, em qualquer idioma.",
     color: "text-[#8B5CF6]",
